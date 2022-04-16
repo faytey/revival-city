@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,600;0,800;0,900;1,900&family=Merriweather+Sans:ital@0;1&family=Montserrat:ital,wght@0,400;0,500;0,700;1,800&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.logoimg{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-link{
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: rgba(0,0,0, 0.3) !important;
+  }
+
+.nav-link, .navbar-brand{
+    
+    color: #fff;
+}
+
+.navbar-nav{
+    padding-right: 10%;
+}
+
+.About{
+    padding-left: 3%;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.nav-item .btn-warning{
+    text-transform: uppercase;
+    padding: 0 3px;
+}
+
+.one{
+   margin: 0 auto;
+}
+
+.imagetext img{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+}
+.imgtxt, .imgtxt2, .imgtxt11{
+    position: absolute; 
+    color: white;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.imgtxt{
+    top: 35%;
+    left: 15%;
+   font-size: 100px;
+   text-transform: uppercase;
+}
+
+.imgtxt11{
+    top: 35%;
+    left: 25%;
+    text-align: center;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+.imgtxt2{
+    top: 60%;
+    left: 55%;
+    font-size: 25px;
+}
+.vline p{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.noline p{
+    text-align: justify;
+    padding: 3%;
+}
+
+@media (max-width: 900px){
+    .imgtxt{
+        top: 35%;
+       font-size: 80px;
+    }
+    
+
+    .imgtxt2{
+        top: 60%;
+        left: 35%;
+        font-size: 15px;
+    }
+    
+}
+
+.aboutimg{
+    width: 80%;
+    height: 80%;
+    margin-left: 15%;
+}
+
+.aboutimg2{
+    width: 50%;
+    height: 70%;
+    margin: 3% auto;
+    border-radius: 50%;
+    padding: -5%;
+}
+
+#about2{
+    background: #f8f9fa;
+}
+.col-lg-4{
+    padding-left: 2%;
+}
+
+.h2item{
+    border-right: 1px solid rgba(0,0,0, 0.1);
+}
+
+.churchjoin{
+    width: 100%;
+    height: 60%;
+}
+
+h2 , h1{
+    padding: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.h2class{
+    padding-top: 0;
+    margin: 0;
+}
+
+.vline{
+    border-right: 2px solid rgb(182, 181, 181);
+}
+.card{
+    margin: 5%;
+}
+
+.card img:hover{
+    box-shadow: 3px 3px 15px #ffc550;
+    transition: all .05s;
+    transform: translateX(-1%);
+    transition-timing-function: ease-in-out;
+}
+
+#two{
+    padding: 5%;
+    margin: 2%;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+#three{
+    padding: 5%;
+    text-align: center;
+}
+
+#four{
+    padding: 5%;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.icons{
+    width: 20%;
+    height: 20%;
+    padding: 0;
+    margin: 0;
+}
+
+.b4ficon{
+    width: 20%;
+    height: 10%;
+    padding: 0;
+    margin: 0;
+    fill: white;
+}
+
+#five{
+    padding: 5%;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: #5c7893;
+    color: white;
+}
+
+footer{
+    padding: 5%;
+
+    text-align: center;
+    background-color: #25323f;
+    color: #f8f9fa;
+}
+
+footer p, #five p{
+    text-align: left;
+    padding: 0 20%;
+}
+
+.icns{
+    text-align: center;
+    padding: 3%;
+}
+
+#five h2, .foot h2{
+    font-size: 20px;
+    padding: 0;
+    font-weight: 400;
+    text-align: left;
+}
+
+#five p{
+    font-size: 15px;
+    padding: 0;
+    text-align: left;
+    color: rgba(245, 245, 245, 0.952);
+}
+
+#five .second{
+    padding-left: 20%;
+}
+
+footer .foota, footer a{
+    text-decoration: none;
+    color:  rgba(177, 168, 168, 0.952);
+}
+
+.foot p{
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0;
+    color: rgba(177, 168, 168, 0.952);
+}
+
+.foot h2{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 4%;
+}
+
+.foot button{
+    height: 16%;
+    background: rgba(16, 73, 126, 0.425);
+    width: 30%;
+    border: 1px solid rgba(16, 73, 126, 0.425);
+    outline: none;
+    border-radius: 20px;
+    color: whitesmoke;
+    margin: 3%;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+a:hover,.nav-link:hover{
+    color: white;
+}
+
+.abouticons{
+    width: 20%;
+    height: 20%;
+    margin: 0 auto;
+}
+
+.aboutchurchjoin{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+.aboutrow p, .aboutrow h4{
+    text-align: center;
+    padding: 2% 5%;
+}
+.aboutlogo{
+    width: 40%;
+    height: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.aboutrow{
+    padding: 5%;
+    
+}
+
+.align-center{
+    text-align: center;
+    margin: 2px, auto
+}
+
+.sermoncard img{
+    width: 100%;
+    height: 20em;
+}
+
+.sermoncard cardbody{
+    width: 100%;
+    height: 5em;
+}
+
+.map{
+    width: 80%;
+    height: 80%;
+    border: 3px solid gray;
+    margin: 2% auto;
+    box-shadow: 3px 3px 3px rgba(0,0,0, 0.3);
+}
+
+.colordiff{
+    background: #f8f9fa;
+    padding: 2%;
+}
+
+form input{
+    width: 80%;
+    font-size: 15px;
+    height: 2.5em;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid #5c7893;
+    margin: 10px;
+
+}
+
+form button{
+    text-align: center;
+    outline: none;
+    border: 3px solid #5c7893;
+    background: #5c7893;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 2% auto;
+    padding: 1%;
+}
+
+form{
+    width: 90%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    box-shadow: 3px 3px 15px rgba(0,0,0, 0.1);
+    padding: 3%;
+}
+
+form label{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+form input[type="textarea"]{
+    height: 150px;
+}
+
+.sermon2{
+    text-align: center;
+    padding: 5%;
+}
+
+.sermonclass{
+    padding: 2%;
+}
+
+.sermon3{
+    background: #f8f9fa;
+    padding: 3% ;
+}
+
+.navbar-toggler{
+    background: #afcbe6af;
+    left: 90%;
+}
+
+@media (maxwidth: 900px) {
+    .navbar {
+        background: rgb(21, 3, 54) !important;
+      }
+    .nav-link{
+        padding-left: 20px;
+    }
+}
