@@ -184,6 +184,16 @@ h2 , h1{
     text-align: center;
 }
 
+.sermonclass a, .three2 a{
+    text-decoration: none;
+    color: #5c7893;
+}
+
+.sermonclass a:hover, .three2 a:hover{
+    text-decoration: none;
+    color: #5c7893;
+}
+
 #four{
     padding: 5%;
     text-align: center;
@@ -329,7 +339,11 @@ a:hover,.nav-link:hover{
 
 .sermoncard cardbody{
     width: 100%;
-    height: 5em;
+    height: 3em;
+}
+
+.sermon3 .h2class{
+    margin: 0 auto;
 }
 
 .map{
